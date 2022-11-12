@@ -1,0 +1,38 @@
+header{
+    margin: 40px 80px 50px 80px;
+}
+.burger-menu{
+    .burger-line{
+        width: 28px;
+        height: 2px;
+    }
+}
+.info-back{
+    margin-bottom: 56px;
+    .row{
+        justify-content: center;
+        align-items: baseline;
+    }
+    .text{
+        margin-top: 30px;
+        position: absolute;
+        color: white;
+        h1{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 74px;
+            text-align: center;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            color:rgba(255, 255, 255, 0.4);
+            width: 720px;
+            font-family: Gilroy;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center; 
+        }
+    }
+}

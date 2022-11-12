@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+// font-family: 'Merriweather', serif;
+// font-family: 'Poppins', sans-serif;
+// Popins: light-300, regular - 400, medium - 500, semiBold - 600, bold - 700
+// Merriweather: bold - 700
+$font-popins: 'Poppins', sans-serif;
+$font-merriweather: 'Merriweather', serif;;
+*{
+    box-sizing: border-box;
+}
+@import "./header.scss";
+@import "./main.scss";
+body{
+    margin: 0;
+    min-width: 1116px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
