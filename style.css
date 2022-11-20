@@ -229,6 +229,110 @@ hr {
   height: 12px;
   cursor: pointer;
   margin-right: 19px;
+  margin-left: 19px;
+}
+
+footer {
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+  display: block;
+}
+
+.first-part-footer {
+  margin: 96px 0px 96px 0px;
+  color: rgb(255, 255, 255);
+}
+.first-part-footer p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.4);
+  width: 460px;
+}
+.first-part-footer h1 {
+  font-family: "Poppins", sans-serif;
+  width: 400px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.lets-talk {
+  background: #5A98D0;
+  border-radius: 10px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 75px 15px 75px;
+  cursor: pointer;
+}
+.lets-talk:hover {
+  background: #9abfe0;
+}
+
+hr {
+  position: relative;
+  left: -260px;
+  background-color: rgb(255, 255, 255);
+  width: 1510px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info img {
+  margin-right: 10px;
+}
+.contact-info h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 46px;
+  color: white;
+}
+
+.column-information-footer {
+  margin-top: 98px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.column-information-footer span {
+  margin-right: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+.column-information-footer .column h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+.column-information-footer .column h3 {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+
+.last-words {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  margin: 64px 0 0 0;
+  padding-bottom: 64px;
 }
 
 body {
